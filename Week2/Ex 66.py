@@ -31,7 +31,6 @@ while True:
     if grade!='':
         point += int(grade_point(grade))
         count+=1
-    else:
-        break
+    else: break
 score=point/count
 print("Your everage score is %.1f" %score)
